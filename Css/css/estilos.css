@@ -1,0 +1,45 @@
+button{
+    color: white;
+}
+
+.purple{background-color: #58355E}
+.blue{background-color: #7AE7C7}
+.green{background-color: #56E39F}
+.yellow{background-color: #E0CA3C}
+
+.standard{
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+}
+
+.small{
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+    margin-right: 15px;
+}
+
+.medium{
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    margin-right: 15px;
+}
+
+.big{
+    margin-bottom: 20px;
+    padding: 25px;
+    border: none;
+    margin-right: 15px;
+}
+
+.xbig{
+    margin-bottom: 20px;
+    padding: 35px;
+    border: none;
+}
+
+.circle{
+    border-radius: 30px;
+}
