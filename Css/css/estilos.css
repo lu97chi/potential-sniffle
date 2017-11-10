@@ -43,3 +43,9 @@ button{
 .circle{
     border-radius: 30px;
 }
+
+
+body{
+    background-image: url('2.jpg');
+    background-size: cover;
+}
