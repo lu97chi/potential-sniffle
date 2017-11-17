@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #03A9F4;
+  height: 60px;
+}
+
+nav{
+  padding: 0 10%;
+}
+
+nav  a{
+  color: white;
+  text-decoration: none;
+}
+
+nav .logo{
+  font-size: 40px;
+}
+
+nav .other{
+  float: right;
+  margin-top: 2%;
+}
+
+.main{
+  padding: 7% 20% 0% 20%;
+}
+
+.main h1 {
+  font-size: 50px;
+  color: #FF9800;
+  margin-left: 25%;
+  margin-bottom: 3%;
+}
+
+.main h4 {
+  text-align: center;
+}
+
+.main button {
+  background-color: #FF9800;
+  padding: 2% 4%;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  margin-left: 40%;
+  margin-top: 3%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.5), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+button{
+  cursor: pointer;
+  transition: ease all .3s
+}
+
+button:hover{
+  background-color: #fff;
+  color: #FF9800;
+  transform: scale(1.2,1.2);
+}
+
+.items{
+  padding: 0% 10%;
+  margin-top: 5%;
+}
+
+.items article {
+  display: inline-block;
+  width: 33%;
+}
+
+.items article i{
+  font-size: 26px;
+  color:#03A9F4;
+  margin-left: 50%;
+  margin-bottom: 4%;
+}
+
+.items article h2 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.desc{
+  color: #aaa;
+}
+
+.bio{
+  padding: 2% 10%;
+  background-color: #FF9800;
+  margin-top: 10%;
+  color: #fff;
+}
+
+.bio div{
+  display: inline-block;
+}
+
+.first{
+  width: 49%;
+}
+
+.second{
+  width: 25%;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bio div{
+  display: inline-block;
+}
+
+.bio h4{
+  margin-bottom: 3%;
+}
+
+footer{
+  padding: 0 10%;
+  color: #fff;
+  background-color: #FFA000;
+}
