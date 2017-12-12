@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JavaScript</title>
+</head>
+<body>
+  <form id="form">
+    <label for="">correo</label>
+    <input type="text" name="corre" id="correo"> <br>
+    <label for="">password</label>
+    <input type="password" name="passoword" id="pasword">
+    <select class="" name="">
+      <option value="">1</option>
+      <option value="">1</option>
+      <option value="">1</option>
+      <option value="">1</option>
+    </select>
+    <button type="button" name="button" id="button">Enviar</button>
+  </form>
+  <script type="text/javascript">
+
+  let form = document.getElementById('form')
+
+  let button = document.getElementById('button')
+  let correo = form.corre
+  button.addEventListener('click', function(){
+
+    let pass = form.passoword.value
+
+    alert(correo.value)
+    alert(pass)
+  })
+  // button.addEventListener('click',function(){
+  //   let corre = document.getElementById('correo').value
+  //   let password = document.getElementById('pasword').value
+  //   alert(corre)
+  //   alert(password)
+  // })
+
+
+
+  </script>
+</body>
+</html>

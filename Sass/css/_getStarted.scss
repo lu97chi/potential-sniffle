@@ -1,0 +1,37 @@
+.first{
+  background-color: #FF5722;
+  color: #fff;
+  h2{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 48px;
+  }
+  hr{
+    width: 7%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 2%;
+  }
+  p{
+    margin-top: 2%;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 20px;
+  }p{
+    text-align: center;
+    button{
+      color: #FF5722;
+      background-color: #fff;
+      font-size: 16px;
+      padding: 2% 5%;
+      margin-top: 5%;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: ease all .5s;
+      margin-bottom: 5%;
+    }
+  }
+}

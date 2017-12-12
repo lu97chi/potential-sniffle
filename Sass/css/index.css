@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Barlow Condensed', sans-serif; }
+
+header {
+  background-image: url("../assests/header.jpg");
+  background-size: cover;
+  height: 600px; }
+  header nav {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    height: 40px; }
+    header nav h1 {
+      color: #D32F2F;
+      padding-left: 10%;
+      display: inline-block; }
+    header nav ul {
+      float: right;
+      width: 30%;
+      padding-top: 1%;
+      display: inline-block; }
+      header nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 5%; }
+        header nav ul li a {
+          font-size: 18px;
+          text-decoration: none;
+          color: #000; }
+  header h2 {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    font-size: 60px;
+    color: #fff; }
+  header p {
+    position: relative;
+    top: 50%;
+    left: 25%;
+    font-size: 24px;
+    width: 50%;
+    text-align: center; }
+  header .button {
+    text-align: center; }
+    header .button button {
+      color: #fff;
+      background-color: #FF5722;
+      font-size: 16px;
+      padding: 2% 5%;
+      margin-top: 5%;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: ease all .5s; }
+      header .button button:hover {
+        color: #FF5722;
+        background-color: #fff; }
+
+.first {
+  background-color: #FF5722;
+  color: #fff; }
+  .first h2 {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 48px; }
+  .first hr {
+    width: 7%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 2%; }
+  .first p {
+    margin-top: 2%;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 20px; }
+  .first p {
+    text-align: center; }
+    .first p button {
+      color: #FF5722;
+      background-color: #fff;
+      font-size: 16px;
+      padding: 2% 5%;
+      margin-top: 5%;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: ease all .5s;
+      margin-bottom: 5%; }
+
+/*# sourceMappingURL=index.css.map */
