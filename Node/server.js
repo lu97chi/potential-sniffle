@@ -2,9 +2,6 @@ const EXPRESS = require('express');
 const APP = EXPRESS();
 const MONGOOSE = require('mongoose');
 const bodyParser = require('body-parser');
-
-
-
 const ROUTER = EXPRESS.Router();
 const API = require('./routes/api')(ROUTER);
 MONGOOSE.Promise = global.Promise;
@@ -15,9 +12,6 @@ MONGOOSE.connect('mongodb://localhost/test', (err)=>{
     console.log('conectado')
   }
 });
-
-
-
 APP.use(bodyParser.urlencoded({ extended: false }))
 APP.use(bodyParser.json())
 APP.use('/api',API);
